@@ -1,4 +1,4 @@
-# MobileRobot-Openloopcontrol
+## MobileRobot-Openloopcontrol
 ## Aim:
 
 
@@ -12,19 +12,19 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 Step1:
 Import the robot, time, and camera modules from the robomaster library to interact with the robot's components.
-<br/>
+
 
 Step2:
 Create an instance of the robot.Robot() class to represent the robot. Initialize the robot's connection using ep_robot.initialize(conn_type="ap").
-<br/>
+
 
 Step3:
 Create objects for the robot's chassis, LEDs, and camera: ep_chassis = ep_robot.chassis ep_led = ep_robot.led ep_camera = ep_robot.camera
-<br/>
+
 
 Step4:
 Start video stream: Start streaming video from the robot's camera using ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P).
-<br/>
+
 Move and change LEDs:
 Execute a series of movements in a pre-defined pattern using ep_chassis.move(). Simultaneously change LED colors using ep_led.set_led() to create visual effects.
 
@@ -33,11 +33,12 @@ After a delay of 4 seconds, stop the video stream using ep_camera.stop_video_str
 
 Step5:
 
-<br/>
 Terminate the connection to the robot using ep_robot.close().
+
 ## Program
+## Developed by :HARSHINI Y
+## Register number:212223240050
 ```
-python
 from robomaster import robot
 import time
 
@@ -47,7 +48,7 @@ if __name__ == '__main__':
 
     ep_chassis = ep_robot.chassis
 
-    ## Write your code here
+ 
 from robomaster import robot
 import time
 from robomaster import camera
@@ -106,11 +107,14 @@ if _name_ == '_main_':
     print("Stopped video streaming.....")
 
     ep_robot.close()
-
-
-    
-    ep_robot.close()
 ```
+## MobileRobot Movement Image:
+
+![robo](./img/robomaster.png)
+
+Insert image here
+
+
 ## MobileRobot Movement Video:
 
 
