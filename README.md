@@ -35,7 +35,8 @@ Step5:
 <br/>
 Terminate the connection to the robot using ep_robot.close().
 ## Program
-```python
+```
+python
 from robomaster import robot
 import time
 
@@ -110,6 +111,7 @@ if _name_ == '_main_':
     ep_robot.close()
 ```
 
+
 ## MobileRobot Movement Image:
 
 ![robo](./img/robomaster.png)
@@ -121,6 +123,7 @@ Insert image here
 <br/>
 <br/>
 <br/>
+
 
 ## MobileRobot Movement Video:
 
