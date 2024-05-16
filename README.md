@@ -111,29 +111,13 @@ if _name_ == '_main_':
     
     ep_robot.close()
 ```
-
-
-## MobileRobot Movement Image:
-
-![robo](./img/robomaster.png)
-
-Insert image here
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
 ## MobileRobot Movement Video:
 
-Upload your video in Youtube and paste your video-id here
 
-[![MobileRobot-Openloopcontrol](https://img.youtube.com/vi/WXWAmk9hVLw/0.jpg)](https://www.youtube.com/watch?v=WXWAmk9hVLw)
 
-https://youtu.be/WXWAmk9hVLw?feature=shared
-<br/> 
+[![MobileRobot-Openloopcontrol](https://img.youtube.com/vi/x5lQMhjPskE/0.jpg)](https://www.youtube.com/watch?v=x5lQMhjPskE)
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -150,3 +134,5 @@ Mobile Robotics Laboratory
 Department of Artificial Intelligence and Data Science/ Machine Learning
 Saveetha Engineering College
 ```
+
+
